@@ -1,5 +1,3 @@
-console.log("hello.client side javascript running!!!");
-
 const weatheForm = document.querySelector("form");
 const searchForm = document.querySelector("input");
 const messageOne = document.querySelector("#message-1");
