@@ -10,6 +10,7 @@ const app = express();
 const publicDirectoryPath = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, "../templates/views");
 const partialspath = path.join(__dirname, "../templates/partials");
+const port = process.env.PORT || 3000;
 
 app.use(express.static(publicDirectoryPath));
 
@@ -87,6 +88,6 @@ app.get("*", (req, res) => {
 });
 
 //starting the server
-app.listen(3000, () => {
-  console.log("server is running on port 3000");
+app.listen(port, () => {
+  console.log("server is running on " + port);
 });
