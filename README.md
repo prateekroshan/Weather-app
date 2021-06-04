@@ -1,8 +1,8 @@
 # Weather-app
-Type any location and get the weather descriptions,
+A simple Node Js application for getting weather descriptions about any location
 
 ## First step
-Download all the files
+Clone the project first
 ## Second step
 Run npm install to install all the necessary node modules
 ## Third step 
